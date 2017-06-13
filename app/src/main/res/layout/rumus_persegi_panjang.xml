@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Rumus Persegi Panjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:text="Keliling : p + l + p + l"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignStart="@+id/textView6"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Luas : p x l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:layout_marginTop="107dp"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView13" />
+
+</RelativeLayout>
